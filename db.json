@@ -1,1 +1,144 @@
-{"dogs":[{"name":"Tremayne","image":"/src/assets/corgi.png","description":"unrealistic Vermont venue Alaska beautifully radian Rolls","isFavorite":false,"id":0},{"name":"Luella","image":"/src/assets/chihuahua.avif","description":"Cotton unlike psst Centralized bluetooth Cadillac Product","isFavorite":false,"id":1},{"name":"Green","image":"/src/assets/blue-heeler.png","description":"blue Folk teal Electronic matrix networks core architectures","isFavorite":false,"id":2},{"name":"Howard","image":"/src/assets/blue-heeler.png","description":"override International Luxurious Sleek Analyst","isFavorite":true,"id":3},{"name":"Rick","image":"/src/assets/cowardly.png","description":"killer Recumbent ratione Cambridgeshire access Chips female sievert","isFavorite":false,"id":4},{"name":"Olga","image":"/src/assets/blue-heeler.png","description":"withdrawal tan yellow Plastic Electric","isFavorite":false,"id":5},{"name":"Flavie","image":"/src/assets/cowardly.png","description":"Lead structure payment reboot system Bacon pixel","isFavorite":true,"id":6},{"name":"Edison","image":"/src/assets/cowardly.png","description":"visualize AGP parse primary Diesel","isFavorite":true,"id":7},{"name":"Geo","image":"/src/assets/corgi.png","description":"how South Steel watt compressing female payoff","isFavorite":false,"id":8},{"name":"Sanford","image":"/src/assets/corgi.png","description":"unleash Future Chief payment percolate jealously harness systematic","isFavorite":false,"id":9},{"name":"Ismael","image":"/src/assets/chihuahua.avif","description":"Rest Borders Pass Bicycle male female Kia though","isFavorite":false,"id":10},{"name":"Thomas","image":"/src/assets/chihuahua.avif","description":"Northwest AGP upright revolutionary Consultant Assistant Web Idaho","isFavorite":false,"id":11},{"name":"Candida","image":"/src/assets/blue-heeler.png","description":"Turnpike Pants incidentally Shirt North","isFavorite":false,"id":12},{"name":"Mathilde","image":"/src/assets/blue-heeler.png","description":"hard South East Argon Southwest","isFavorite":true,"id":13},{"name":"Pinkie","image":"/src/assets/boxer.png","description":"Hybrid Michigan Refined Fitness transmitting Soft OCR Innovative","isFavorite":true,"id":14},{"name":"Milo","image":"/src/assets/dalmation.png","description":"Intelligent array Van nippy Caesium matrix Electronic bitterly","isFavorite":false,"id":15},{"name":"Norwood","image":"/src/assets/boxer.png","description":"Profound Caesium City man SDD Modern Hybrid","isFavorite":true,"id":16},{"name":"Vena","image":"/src/assets/boxer.png","description":"Manager Buckinghamshire Phased Chief Tools Officer extend","isFavorite":false,"id":17},{"name":"Chelsea","image":"/src/assets/corgi.png","description":"East West Investor Sterling mobile","isFavorite":true,"id":18},{"name":"Creola","image":"/src/assets/chihuahua.avif","description":"capture Iran quirkily leading compressing Brand group Eloisa","isFavorite":true,"id":19}]}
+{
+  "dogs": [
+    {
+      "name": "Tremayne",
+      "image": "/src/assets/corgi.png",
+      "description": "unrealistic Vermont venue Alaska beautifully radian Rolls",
+      "isFavorite": false,
+      "id": 0
+    },
+    {
+      "name": "Luella",
+      "image": "/src/assets/chihuahua.avif",
+      "description": "Cotton unlike psst Centralized bluetooth Cadillac Product",
+      "isFavorite": false,
+      "id": 1
+    },
+    {
+      "name": "Green",
+      "image": "/src/assets/blue-heeler.png",
+      "description": "blue Folk teal Electronic matrix networks core architectures",
+      "isFavorite": true,
+      "id": 2
+    },
+    {
+      "name": "Howard",
+      "image": "/src/assets/blue-heeler.png",
+      "description": "override International Luxurious Sleek Analyst",
+      "isFavorite": true,
+      "id": 3
+    },
+    {
+      "name": "Rick",
+      "image": "/src/assets/cowardly.png",
+      "description": "killer Recumbent ratione Cambridgeshire access Chips female sievert",
+      "isFavorite": false,
+      "id": 4
+    },
+    {
+      "name": "Olga",
+      "image": "/src/assets/blue-heeler.png",
+      "description": "withdrawal tan yellow Plastic Electric",
+      "isFavorite": false,
+      "id": 5
+    },
+    {
+      "name": "Flavie",
+      "image": "/src/assets/cowardly.png",
+      "description": "Lead structure payment reboot system Bacon pixel",
+      "isFavorite": true,
+      "id": 6
+    },
+    {
+      "name": "Edison",
+      "image": "/src/assets/cowardly.png",
+      "description": "visualize AGP parse primary Diesel",
+      "isFavorite": true,
+      "id": 7
+    },
+    {
+      "name": "Geo",
+      "image": "/src/assets/corgi.png",
+      "description": "how South Steel watt compressing female payoff",
+      "isFavorite": false,
+      "id": 8
+    },
+    {
+      "name": "Sanford",
+      "image": "/src/assets/corgi.png",
+      "description": "unleash Future Chief payment percolate jealously harness systematic",
+      "isFavorite": false,
+      "id": 9
+    },
+    {
+      "name": "Ismael",
+      "image": "/src/assets/chihuahua.avif",
+      "description": "Rest Borders Pass Bicycle male female Kia though",
+      "isFavorite": true,
+      "id": 10
+    },
+    {
+      "name": "Thomas",
+      "image": "/src/assets/chihuahua.avif",
+      "description": "Northwest AGP upright revolutionary Consultant Assistant Web Idaho",
+      "isFavorite": false,
+      "id": 11
+    },
+    {
+      "name": "Candida",
+      "image": "/src/assets/blue-heeler.png",
+      "description": "Turnpike Pants incidentally Shirt North",
+      "isFavorite": false,
+      "id": 12
+    },
+    {
+      "name": "Mathilde",
+      "image": "/src/assets/blue-heeler.png",
+      "description": "hard South East Argon Southwest",
+      "isFavorite": true,
+      "id": 13
+    },
+    {
+      "name": "Pinkie",
+      "image": "/src/assets/boxer.png",
+      "description": "Hybrid Michigan Refined Fitness transmitting Soft OCR Innovative",
+      "isFavorite": true,
+      "id": 14
+    },
+    {
+      "name": "Milo",
+      "image": "/src/assets/dalmation.png",
+      "description": "Intelligent array Van nippy Caesium matrix Electronic bitterly",
+      "isFavorite": false,
+      "id": 15
+    },
+    {
+      "name": "Norwood",
+      "image": "/src/assets/boxer.png",
+      "description": "Profound Caesium City man SDD Modern Hybrid",
+      "isFavorite": true,
+      "id": 16
+    },
+    {
+      "name": "Vena",
+      "image": "/src/assets/boxer.png",
+      "description": "Manager Buckinghamshire Phased Chief Tools Officer extend",
+      "isFavorite": false,
+      "id": 17
+    },
+    {
+      "name": "Chelsea",
+      "image": "/src/assets/corgi.png",
+      "description": "East West Investor Sterling mobile",
+      "isFavorite": true,
+      "id": 18
+    },
+    {
+      "name": "Creola",
+      "image": "/src/assets/chihuahua.avif",
+      "description": "capture Iran quirkily leading compressing Brand group Eloisa",
+      "isFavorite": true,
+      "id": 19
+    }
+  ]
+}
