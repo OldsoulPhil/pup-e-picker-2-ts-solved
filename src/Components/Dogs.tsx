@@ -26,8 +26,12 @@ export const Dogs = () =>
               description: dog.description,
               isFavorite: dog.isFavorite,
             }}
-            onEmptyHeartClick={() => patchDog(dog.id, true)}
-            onHeartClick={() => patchDog(dog.id, false)}
+            onEmptyHeartClick={() => {
+              patchDog(dog.id, true).catch(console.error);
+            }}
+            onHeartClick={() => {
+              patchDog(dog.id, false).catch(console.error);
+            }}
             onTrashIconClick={() => deleteDog(dog.id)}
             isLoading={isLoading}
             key={dog.id}

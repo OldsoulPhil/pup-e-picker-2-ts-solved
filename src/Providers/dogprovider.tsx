@@ -23,6 +23,11 @@ const DogsContext = createContext<TDogsContext>({} as TDogsContext);
 export const DogProvider = ({ children }: { children: ReactNode }) => {
   const [dogs, setDogs] = useState<Dog[]>([]);
   const [isLoading, setIsLoading] = useState(false);
+  const refetchDogs = () => {
+    Requests.getAllDogs()
+      .then((dogArray) => setDogs(dogArray))
+      .catch((err) => console.log(err));
+  };
 
   const postDog = (dog: Omit<Dog, "id">) => {
     setIsLoading(true);
@@ -32,12 +37,12 @@ export const DogProvider = ({ children }: { children: ReactNode }) => {
       description: dog.description,
       isFavorite: dog.isFavorite,
     })
-      .then(() => {
-        toast.success("Dog created!");
-      })
       .then(() => Requests.getAllDogs())
-      .then((dogs) => setDogs(dogs))
-      .then(() => setIsLoading(false));
+      .then((dogs) => {
+        toast.success("yay motherfer");
+        return setDogs(dogs);
+      })
+      .finally(() => setIsLoading(false));
   };
 
   const patchDog = (id: number, patch: boolean) => {
@@ -53,9 +58,7 @@ export const DogProvider = ({ children }: { children: ReactNode }) => {
   };
 
   useEffect(() => {
-    Requests.getAllDogs()
-      .then((dogArray) => setDogs(dogArray))
-      .catch((err) => console.log(err));
+    refetchDogs();
   }, []);
 
   return (
